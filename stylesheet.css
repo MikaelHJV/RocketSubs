@@ -1,1 +1,170 @@
-fa.fa-pull-left,.fa.pull-left{margin-right:.3em}.fa,.fa-stack,.swiper-pagination-bullet{display:inline-block}.clearfix:after,.container-fluid:after,.container:after,.row:after,.ui-helper-clearfix:after{clear:both}*,.fa{-moz-osx-font-smoothing:grayscale}.fa-ul,ol li,ul li{list-style-type:none}.error,.fa-fw,.fa-li,.swiper-pagination,.text-align-center{text-align:center},#mobile-button,#sub_menu nav ul li a,header#main nav#desktop ul li a,html{-webkit-tap-highlight-color:transparent}#cat_search_bar input[type=range]:focus,.greggs_select,.ui-helper-reset,a,button:focus,input,textarea{outline:0}@font-face{font-family:FontAwesome;src:url(../fonts/FontAwsum/fontawesome-webfont.eot?v=4.5.0);src:url(../fonts/FontAwsum/fontawesome-webfont.eot?#iefix&v=4.5.0) format("embedded-opentype"),url(../fonts/FontAwsum/fontawesome-webfont.woff2?v=4.5.0) format("woff2"),url(../fonts/FontAwsum/fontawesome-webfont.woff?v=4.5.0) format("woff"),url(../fonts/FontAwsum/fontawesome-webfont.ttf?v=4.5.0) format("truetype")
+html,body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  }
+
+  body {
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #89cff0;
+}
+
+header#main #logo {
+    position: relative;
+    top: 10px;
+    left: 0;
+    width: 100px;
+    height: auto;
+    float: left;
+}
+
+header#main #logotext {
+    position: relative;
+    top: -5px;
+    left: 50px;
+    float: left;
+    font-size: 40px;
+    font-color: black;
+}
+
+header#main #findStore, header#main a, header#main input {
+    color: inherit;
+    font-size: 30px;
+}
+
+header#main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    color: #89cff0;
+    background: #00558f;
+    overflow: hidden;
+    z-index: 999999;
+    box-shadow: 0 3px 5px rgba(0,0,0,.4);
+}
+
+.container, .container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header#main #logo h1 {
+    width: 200px;
+    height: auto;
+    text-align: center;
+    margin: 0;
+    text-indent: -9999px;
+    background: url('https://i.gyazo.com/39cba1e9ee40f84b3a5810085ca4a58d.png') center no-repeat;
+      background-image: url('https://i.gyazo.com/39cba1e9ee40f84b3a5810085ca4a58d.png');
+      background-position-x: center;
+      background-position-y: content: '';
+      background-size: contain;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-attachment: initial;
+      background-origin: initial;
+      background-clip: initial;
+      background-color: initial;
+    background-size: contain;
+}
+#picture1 {
+  width:auto;
+  height:700px;
+  position:relative;
+
+}
+
+h2, h3, h4, h5, p {
+    font-family: Yellowtail; crusive;
+}
+.row {
+        margin-left: -15px;
+        margin-right: -15px;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    min-height: 100%;
+
+  }
+
+.container, .container-fluid {
+      margin-right: auto;
+      margin-left: auto;
+      padding-left: 15px;
+      padding-right: 15px;
+}
+
+.footer {
+  box-sizing: border-box;
+  position: relative;
+  padding: 25px 0;
+    width: 100%;
+
+    bottom: 0;
+    background-color: #00558f;
+    color: #FFF;
+
+}
+
+.footer-rows {
+  display: flex;
+  font-style: normal;
+
+}
+
+.footer-kolonne-1 {
+  left:auto;
+  box-sizing: border-box;
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    border: 10px solid transparent
+  }
+}
+
+.footer-kolonne-2 {
+  left:auto;
+  box-sizing: border-box;
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    border: 20px solid transparent;
+}
+
+.footer-rows h2 {
+  position: relative;
+
+}
+.footer-rows ul {
+  margin-left: -20px;
+  margin-top: 24px;
+  list-style: none;
+    list-style-type: none;
+    list-style-position: initial;
+    list-style-image: initial;
+
+}
+
+.footer-rows ul {
+  font-style: arial;
+}
+
+#menu {
+  position: relative;
+  float: right;
+  background-color: black;
+}
+.menutext{
+  font-size: 20pt;
+}
