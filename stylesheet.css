@@ -10,6 +10,7 @@ html,body {
     line-height: 1.42857143;
     color: #333;
     background-color: #89cff0;
+    height: 100%;
 }
 
 header#main #logo {
@@ -75,10 +76,10 @@ header#main #logo h1 {
     background-size: contain;
 }
 #picture1 {
-  width:auto;
+  width: 100%;
   height:700px;
   position:relative;
-
+  padding-top: 40px;
 }
 
 h2, h3, h4, h5, p {
@@ -111,29 +112,33 @@ main {
 
 .footer {
   box-sizing: border-box;
-  position: relative;
-  padding: 25px 0;
-    width: 100%;
+  position: absolute;
+  padding: 10px 0;
+  width: 100%;
+  background-color: #00558f;
+  color: lightgrey;
 
-    bottom: 0;
-    background-color: #00558f;
-    color: #FFF;
 
 }
 
 .footer-rows {
+  padding-left: 200px;
   display: flex;
   font-style: normal;
 
 }
 
 .footer-kolonne-1 {
+  position: relative;
   left:auto;
   box-sizing: border-box;
     width: 300px;
     height: 250px;
     padding: 10px;
-    border: 10px solid transparent
+    border: 10px solid transparent;
+    bottom: 20px;
+    margin-right: -70px;
+
   }
 }
 
@@ -143,11 +148,27 @@ main {
     width: 300px;
     height: 250px;
     padding: 10px;
-    border: 20px solid transparent;
+    border: 10px solid transparent;
+}
+
+.footer-kolonne-3 {
+  margin-left: 10px;
+}
+.footer-kolonne-4 {
+  position: relative;
+  left:auto;
+  box-sizing: border-box;
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    border: 10px solid transparent;
+    bottom: 20px;
+
 }
 
 .footer-rows h2 {
   position: relative;
+  left: 20px;
 
 }
 .footer-rows ul {
@@ -210,9 +231,12 @@ main {
   margin-left: 40px;
   margin-right: 40px;
 }
-
 #instagramlogo {
   position: relative;
-  bottom: 12px;
-  left: 15px;
+  bottom: 5px;
+  left: 35px;
+}
+
+.footerlink {
+  color: #89cff0;
 }
